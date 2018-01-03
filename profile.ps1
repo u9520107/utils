@@ -101,4 +101,6 @@ if ($agent -eq 0) {
 	Write-Host "SSH agent is running (PID $agent)"
 }
 
-#cd ~
+Set-PSReadlineOption -BellStyle None;
+
+Set-Alias open Invoke-Item;
